@@ -65,7 +65,7 @@ h1 {
     margin-top: 10px;
 }
 
-.library .library_content {
+.library .library__content {
     display: flex;
     justify-content: space-between;
 }
