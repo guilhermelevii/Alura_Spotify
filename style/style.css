@@ -3,8 +3,11 @@
     margin: 0px;
 }
 
+
 body {
     background-color: black;
+
+
 }
 
 h1 {
@@ -19,6 +22,7 @@ h1 {
     bottom: 0;
     padding: 12px;
     width: 300px;
+
 }
 
 .sidebar__navigation {
@@ -192,35 +196,39 @@ h1 {
 .footer__premiun {
     background-color: red;
     position: fixed;
-    bottom: 0; /*importante*/
-    left: 0; /*importante*/
-    right: 0;/*importante*/
+    bottom: 0;
+    /*importante*/
+    left: 0;
+    /*importante*/
+    right: 0;
+    /*importante*/
     background: linear-gradient(to right, #ae2896, #509bf5);
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
 }
 
-.text__footer{
-    flex-shrink: 0; /* indica que o item não encolherá em relação aos outros itens no container*/
-    font-family: "DM Sans", sans-serif; 
-    
+.text__footer {
+    flex-shrink: 0;
+    /* indica que o item não encolherá em relação aos outros itens no container*/
+    font-family: "DM Sans", sans-serif;
+
 }
 
-.footer__premiun .title__footer{
-    color:#ffff;
+.footer__premiun .title__footer {
+    color: #ffff;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 10px;
-    
+
 }
 
-.footer__premiun .subtitle__footer{
-    color:#ffffff;
+.footer__premiun .subtitle__footer {
+    color: #ffffff;
     font-size: 14px;
     font-weight: 500;
-    
+
 }
 
 .footer__premiun button {

@@ -15,38 +15,49 @@
 </head>
 
 <body>
-    <div class="sidebar"> <!--Conteiner principal, tudo é montado dentro dele.-->
-        <nav class="sidebar__navigation"> <!--Criamos a parte de navegação com Inicio e Buscar.-->
-            <div class="logo"> <!--div para adicionar a imagem dentro dela.-->
+    <div class="sidebar">
+        <!--Conteiner principal, tudo é montado dentro dele.-->
+        <nav class="sidebar__navigation">
+            <!--Criamos a parte de navegação com Inicio e Buscar.-->
+            <div class="logo">
+                <!--div para adicionar a imagem dentro dela.-->
                 <a href="">
                     <img src="./assets/icons/logo-spotify.png" alt="Logo" />
                 </a>
             </div>
-            <ul> <!--uma lista para adicionar as opções dentro do "nav"-->
+            <ul>
+                <!--uma lista para adicionar as opções dentro do "nav"-->
                 <li>
-                    <a href="">  <!--Linkamos as opções para direcionar para outro caminho-->
+                    <a href="">
+                        <!--Linkamos as opções para direcionar para outro caminho-->
                         <span class="fa fa-home"></span>
                         <span>Início</span>
                     </a>
                 </li>
                 <li>
-                    <a href=""> <!--Linkamos as opções para direcionar para outro caminho-->
-                        <span class="fa fa-search"></span> <!--Icons dentro dos "spans"-->
+                    <a href="">
+                        <!--Linkamos as opções para direcionar para outro caminho-->
+                        <span class="fa fa-search"></span>
+                        <!--Icons dentro dos "spans"-->
                         <span>Buscar</span>
                     </a>
                 </li>
             </ul>
         </nav>
-        <div class="library"> <!--Desenvolvi a parte das bibliotecas criando uma div principal para isso com a class=="library"-->
-            <div class="library__content"><!--Uma div para criarmos um button de caminho para sua biblioteca-->
+        <div class="library">
+            <!--Desenvolvi a parte das bibliotecas criando uma div principal para isso com a class=="library"-->
+            <div class="library__content">
+                <!--Uma div para criarmos um button de caminho para sua biblioteca-->
                 <button class="library__button">
                     <span class="fa fas fa-book"></span>
                     <span>Sua biblioteca</span>
                 </button>
                 <span class="fa fa-plus"></span>
             </div>
-            <section class="section-playlist"><!--Uma sessão para criar uma nova playlist uma nova biblioteca no saco-->
-                <div class="section-playlist__content"> <!--Uma div concentrando todas as informação + botao de "criar"-->
+            <section class="section-playlist">
+                <!--Uma sessão para criar uma nova playlist uma nova biblioteca no saco-->
+                <div class="section-playlist__content">
+                    <!--Uma div concentrando todas as informação + botao de "criar"-->
                     <span class="text title">Crie sua primeira playlist</span>
                     <span class="text subtitle">É fácil, vamos te ajudar.</span>
                     <button class="section-playlist__button">
@@ -54,21 +65,24 @@
                     </button>
                 </div>
             </section>
-            <div class="cookies"> <!--Uma div coockies-->
+            <div class="cookies">
+                <!--Uma div coockies-->
                 <a href="">Cookies</a>
             </div>
-            <div class="languages"> <!--Uma div para tipo da lingua.-->
+            <div class="languages">
+                <!--Uma div para tipo da lingua.-->
                 <button class="languages__button">
                     <span class="fa fa-globe"></span>
                     <span>Português do Brasil</span>
                 </button>
             </div>
         </div>
-    </div>    
+    </div>
     <footer class="footer__premiun">
         <div class="text__footer">
             <p class="text title__footer">Testar o premiun de graça</p>
-            <p class="text subtitle__footer">Inscreva-se para curtir música ilimitada e podcast só com alguns anúncios.Não precisa de cartão de crédito</p>
+            <p class="text subtitle__footer">Inscreva-se para curtir música ilimitada e podcast só com alguns
+                anúncios.Não precisa de cartão de crédito</p>
         </div>
         <div class="button">
             <button type="button">Inscreva-se grátis</button>
