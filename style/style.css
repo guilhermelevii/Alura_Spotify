@@ -145,8 +145,8 @@ h1 {
     font-size: 12px;
     font-weight: 700;
     font-family: "DM Sans", sans-serif;
-    text-decoration: none;
-    text-transform: none;
+    text-decoration: none; /* propriedade pra deixar o botao bem legal, ja documentei a mesma propriedade nas linhas de cima*/
+    text-transform: none; /* propriedade pra deixar o botao bem legal*/
     padding: 10px;
     margin-top: 12px;
     border: 0;
