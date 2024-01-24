@@ -78,8 +78,8 @@ h1 {
     display: flex;
     margin-right: 10px;
     color: #b3b3b3;
-    background-color: transparent;
-    border: 0px;
+    background-color: transparent; /* deixa transparente o botao*/
+    border: 0px; /*tira a borda do botao, fica bem legal!*/
     font-size: 14px;
     font-weight: 700;
     /*muito legal esse font-weight*/
