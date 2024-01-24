@@ -121,7 +121,7 @@ h1 {
     flex-direction: column;
 }
 
-.section-playlist__content .text {
+.section-playlist__content .text { /* ele vai se aplicar tanto no text title e no text subtitle*/
     padding-bottom: 14px;
     color: #fff;
     font-family: "DM Sans", sans-serif;
