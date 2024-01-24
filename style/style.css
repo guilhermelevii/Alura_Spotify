@@ -1,7 +1,8 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
+
 body {
     background-color: black;
 }
@@ -56,7 +57,7 @@ h1 {
 }
 
 .library {
-    background-color:#121212;
+    background-color: #121212;
     /*mudar a cor depois*/
     border-radius: 8px;
     display: flex;
@@ -78,8 +79,10 @@ h1 {
     display: flex;
     margin-right: 10px;
     color: #b3b3b3;
-    background-color: transparent; /* deixa transparente o botao*/
-    border: 0px; /*tira a borda do botao, fica bem legal!*/
+    background-color: transparent;
+    /* deixa transparente o botao*/
+    border: 0px;
+    /*tira a borda do botao, fica bem legal!*/
     font-size: 14px;
     font-weight: 700;
     /*muito legal esse font-weight*/
@@ -106,7 +109,8 @@ h1 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 20px; /* espaço entre as propriedades*/
+    gap: 20px;
+    /* espaço entre as propriedades*/
     background-color: #242424;
     color: #b3b3b3;
     font-weight: 600;
@@ -121,7 +125,8 @@ h1 {
     flex-direction: column;
 }
 
-.section-playlist__content .text { /* ele vai se aplicar tanto no text title e no text subtitle*/
+.section-playlist__content .text {
+    /* ele vai se aplicar tanto no text title e no text subtitle*/
     padding-bottom: 14px;
     color: #fff;
     font-family: "DM Sans", sans-serif;
@@ -145,8 +150,10 @@ h1 {
     font-size: 12px;
     font-weight: 700;
     font-family: "DM Sans", sans-serif;
-    text-decoration: none; /* propriedade pra deixar o botao bem legal, ja documentei a mesma propriedade nas linhas de cima*/
-    text-transform: none; /* propriedade pra deixar o botao bem legal*/
+    text-decoration: none;
+    /* propriedade pra deixar o botao bem legal, ja documentei a mesma propriedade nas linhas de cima*/
+    text-transform: none;
+    /* propriedade pra deixar o botao bem legal*/
     padding: 10px;
     margin-top: 12px;
     border: 0;
@@ -180,4 +187,16 @@ h1 {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.footer {
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
 }
