@@ -192,11 +192,45 @@ h1 {
 .footer__premiun {
     background-color: red;
     position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    bottom: 0; /*importante*/
+    left: 0; /*importante*/
+    right: 0;/*importante*/
     background: linear-gradient(to right, #ae2896, #509bf5);
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
+}
+
+.text__footer{
+    flex-shrink: 0; /* indica que o item não encolherá em relação aos outros itens no container*/
+    font-family: "DM Sans", sans-serif; 
+    
+}
+
+.footer__premiun .title__footer{
+    color:#ffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+}
+
+.footer__premiun .subtitle__footer{
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.footer__premiun button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
