@@ -103,9 +103,10 @@ h1 {
 }
 
 .section-playlist {
+    display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 20px;
+    gap: 20px; /* espaço entre as propriedades*/
     background-color: #242424;
     color: #b3b3b3;
     font-weight: 600;
