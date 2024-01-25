@@ -3,11 +3,8 @@
     margin: 0px;
 }
 
-
 body {
     background-color: black;
-
-
 }
 
 h1 {
@@ -22,7 +19,6 @@ h1 {
     bottom: 0;
     padding: 12px;
     width: 300px;
-
 }
 
 .sidebar__navigation {
@@ -212,7 +208,6 @@ h1 {
     flex-shrink: 0;
     /* indica que o item não encolherá em relação aos outros itens no container*/
     font-family: "DM Sans", sans-serif;
-
 }
 
 .footer__premiun .title__footer {
@@ -221,14 +216,12 @@ h1 {
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 10px;
-
 }
 
 .footer__premiun .subtitle__footer {
     color: #ffffff;
     font-size: 14px;
     font-weight: 500;
-
 }
 
 .footer__premiun button {
