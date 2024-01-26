@@ -16,6 +16,7 @@
     margin: 10px;
     border-radius: 8px;
     background-color: var(--color-3);
+    padding: 12px;
 }
 
 .header__navigation .navigation {
