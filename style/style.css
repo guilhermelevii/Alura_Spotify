@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: black;
+    background-color:var(--cor1);
     font-family: var(--font-dm-sans);
 }
 
 h1 {
-    color: #fff;
+    color: #ffff;
 }
 
 .sidebar {

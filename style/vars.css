@@ -1,4 +1,12 @@
 :root{
     /*FONT*/
     --font-dm-sans:"DM Sans",sans-serif;
+    
+}
+
+:root{
+    --color-1-:#000000;
+    --color-2-:#FFFF;
+    --color-3-:#121212;
+    --color-4-:#b3b3b3;
 }
