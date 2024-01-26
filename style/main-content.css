@@ -90,9 +90,9 @@
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
-    
-    
-    
+    border: none;
+    outline: none;
+    cursor: pointer;
 
 }
 
@@ -104,7 +104,9 @@
     font-weight: 700;
     border-radius: 40px;
     outline: none;
+    /*deixa o button clean*/
     border: none;
-
+    /*deixa o button clean*/
+    cursor: pointer;
 
 }
