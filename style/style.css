@@ -54,7 +54,6 @@ h1 {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-
 }
 
 .library {
@@ -130,7 +129,6 @@ h1 {
     /* ele vai se aplicar tanto no text title e no text subtitle*/
     padding-bottom: 14px;
     color: #fff;
-
 }
 
 .section-playlist__content .title {
@@ -207,7 +205,6 @@ h1 {
 .text__footer {
     flex-shrink: 0;
     /* indica que o item não encolherá em relação aos outros itens no container*/
-
 }
 
 .footer__premiun .title__footer {
