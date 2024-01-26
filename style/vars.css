@@ -1,15 +1,22 @@
-:root{
+:root {
     /*FONT*/
-    --font-dm-sans:"DM Sans",sans-serif;
-    
+    --font-dm-sans: "DM Sans", sans-serif;
+
 }
 
-:root{
-    /*COLORS*/
-    --color-1:#000000;
-    --color-2:#FFFFFF;
-    --color-3:#121212;
-    --color-4:#b3b3b3;
-    --color-5:#242424;
-    --color-6:#878787;
+:root {
+    /*COLORS STYLE*/
+    --color-1: #000000;
+    --color-2: #FFFFFF;
+    --color-3: #121212;
+    --color-4: #b3b3b3;
+    --color-5: #242424;
+    --color-6: #878787;
+}
+
+:root {
+    /*COLORS main-content*/
+    --bg-icon: #131313;
+    --bg-arrow-color: rgb(0, 0, 7);
+    --bg-subs-color: #a7a7a7;
 }
