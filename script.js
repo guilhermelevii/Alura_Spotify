@@ -27,8 +27,10 @@ document.addEventListener('input', function () {
     if (searchTerm === '') {
         resultPlaylist.classList.remove('hidden');
         resultArtist.classList.add('hidden');
-        return
+        return;
     }
     
     requestApi(searchTerm);
 })
+
+//json-server --watch api-artists/artists.json --port 3000
